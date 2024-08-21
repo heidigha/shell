@@ -24,7 +24,10 @@ touch file1 file2 file3 file4 file5
 cat dir2/file3
 
 # 6. Delete file4
+ rm file4
 
 # 7. Delete directories dir4 and dir5 including all their contents (if any)
+rm -r dir4/* dir5/*
 
 # 8. List the contents of the parent directory to verify the deletion of dir4 and dir5
+ls
